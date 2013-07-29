@@ -1,0 +1,109 @@
+.header{
+
+    height:110px;
+    width:100%;
+    padding:0;
+    margin:0;
+    background-image: url('/images/footer_pic.png');
+    background-repeat: repeat-x;
+    background-position: top left;
+    z-index:10000;
+    position: fixed;
+}
+h1.logo{
+    font-size:4em;
+    color:white;
+    font-weight:bold;
+    line-height:80px;
+    vertical-align: middle;
+    position: relative;
+    margin-left:50px;
+}
+.header-nav{
+height:110px;
+position:absolute;
+left:450px;
+top:0px;
+z-index:10001;
+
+}
+.header-nav ul{
+    height:110px;
+}
+.header-nav ul li{
+    list-style: none;
+    display: block;
+    width:150px;
+    line-height:110px;
+    float:left;
+
+    text-align:center;
+
+}
+.header-nav ul li:hover{
+    background-color: #a9a9a9;
+
+}
+.header-nav ul li a{
+    font-size:2em;
+    color:white;
+    text-decoration:none;
+}
+.sign-up-in-button-wrapper{
+    position:absolute;
+    left:600px;
+    top:0;
+    width:350px;
+    line-height:110px;
+    vertical-align: middle;
+}
+.sign-up-in-button-wrapper a{
+    margin-right: 10px;
+}
+
+.main-content-wrapper{
+    margin-top:110px;
+    width:1000px;
+    height:1200px;
+    margin:auto;
+    border:1px solid #808080;
+    background-color: white;
+
+}
+.clear{
+    clear:both;
+}
+.footer{
+    text-align: center;
+    font-size:70%
+}
+/* sign-up-------------------*/
+.main-content-wrapper h1{
+    margin-top:200px;
+    margin-left:400px;;
+
+}
+.main-content-wrapper form{
+
+ padding:0 100px;
+
+}
+/* sign-in-------------------*/
+.main-content-wrapper .navbar{
+    margin-top:150px;
+    width:670px;
+    margin-left:150px;
+}
+div#container{
+    width:100%;
+
+
+}
+.item {
+    width: 15%;
+    margin:10px;
+
+}
+
+.item.w2 {
+    width: 30%; }
